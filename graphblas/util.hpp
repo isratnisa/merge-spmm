@@ -25,6 +25,7 @@ void parseArgs( int argc, char**argv, po::variables_map& vm ) {
   po::options_description desc("Allowed options");
   desc.add_options()
     ("help", "produce help message")
+    ("nblock", po::value<int>()->default_value(1), "number of blocks(partitions) ")
     ("ta", po::value<int>()->default_value(32), "threads per A row")
     ("tb", po::value<int>()->default_value(32), "B slab width")
     ("nt", po::value<int>()->default_value(128), "threads per block")

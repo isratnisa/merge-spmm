@@ -1,0 +1,8 @@
+ export CC=/usr/bin/gcc-4.9
+ export CXX=/usr/bin/g++-4.9
+
+ export PATH=/usr/local/cuda-8.0/bin/:$PATH
+ export CUDA_HOME=/usr/local/cuda-8.0
+
+ export PATH=/home/inisa/boost_1_58_0/:$PATH
+ export LD_LIBRARY_PATH=/home/inisa/boost_1_58_0/stage/lib:$LD_LIBRARY_PATH 
